@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid red !important;
+}
+
+.container {
+  /* background-color: blue; */
+}
+
+.wrapper {
+  /* background-color: blue; */
+  /* overflow: hidden; */
+  width: 17.5%;
+  background-color: yellowgreen;
+}
+
+.slides {
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+
+  /* width: 17.5%; */
+
+  /* overflow: hidden; */
+}
+
+.slide {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.slide > img {
+  width: 5vw;
+  height: 20vh;
+}
+
+.button {
+  position: absolute;
+  width: 3vw;
+  height: 10vh;
+  background-color: rgba(0, 255, 242, 0.096);
+}
+
+.left {
+  left: 38%;
+  top: 30%;
+}
+
+.right {
+  right: 36%;
+  top: 30%;
+}
+
+.clone {
+  background-color: silver;
+}
