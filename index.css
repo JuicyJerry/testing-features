@@ -1,54 +1,56 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red !important;
 }
 
 .container {
-  /* background-color: blue; */
-}
-
-.wrapper {
-  /* background-color: blue; */
-  /* overflow: hidden; */
-  width: 17.5%;
-  background-color: yellowgreen;
+  position: relative;
+  width: 470px;
+  margin: 0 auto;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid rgb(119, 0, 255) !important;
 }
 
 .slides {
-  display: flex;
-  /* justify-content: center; */
-  position: relative;
-
-  /* width: 17.5%; */
-
-  /* overflow: hidden; */
+  position: absolute;
+  left: 0; 
+  top: 0;
+  border: 1px solid rgb(119, 0, 255) !important;
 }
 
-.slide {
+.slides li {
+  width: 130px;
+  height: 100px;
+  float:left;
   list-style-type: none;
   margin: 10px;
+  background-color: aquamarine;
+}
+
+.slide .animated {
+  transition: 0.5s ease-out;
 }
 
 .slide > img {
-  width: 5vw;
-  height: 20vh;
+  width: 130px;
+  height: 100px;
 }
 
 .button {
   position: absolute;
   width: 3vw;
   height: 10vh;
-  background-color: rgba(0, 255, 242, 0.096);
+  background-color: rgb(0, 255, 242);
 }
 
 .left {
-  left: 38%;
-  top: 30%;
+  left: 35%;
+  top: 10%;
 }
 
 .right {
-  right: 36%;
-  top: 30%;
+  right: 35%;
+  top: 10%;
 }
 
 .clone {
